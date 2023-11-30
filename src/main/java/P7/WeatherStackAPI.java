@@ -8,7 +8,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class WeatherStackAPI {
-    String apiKey = "5cfbdb768ce502c32fb609af82754840";
+    String apiKey = "7b0449de995db16daa54f6a868183e93";
     String apiUrl = "http://api.weatherstack.com/current?access_key=" + apiKey + "&query=";
 
     public String getWeatherConditionsFrom(String zone) {
