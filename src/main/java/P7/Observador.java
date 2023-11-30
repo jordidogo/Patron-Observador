@@ -1,4 +1,5 @@
 package P7;
 
-public interface Observador {
+interface Observador {
+    void actualizar(String condiciones);
 }
