@@ -59,4 +59,29 @@ public class SeleccionCiudad {
         iniciarActualizacionesPeriodicas();
         frame.dispose();
     }
+    private void iniciarActualizacionesPeriodicas() {
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                actualizarCondicionesMeteorologicas();
+            }
+        }, 0, 30000); // Se ejecuta inmediatamente y luego cada 30000 milisegundos (30 segundos)
+    }
+
+
+    private void actualizarCondicionesMeteorologicas() {
+        for (String ciudad : checkBoxes.keySet()) {
+            if (checkBoxes.get(ciudad).isSelected()) {
+                SwingUtilities.invokeLater(() -> {
+                    try {
+                        String condicionesMeteorologicas = weatherStackAPI.getWeatherConditionsFrom(ciudad);
+                        sujeto.notificarObservadores(ciudad, condicionesMeteorologicas);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                });
+            }
+        }
+    }
 }
