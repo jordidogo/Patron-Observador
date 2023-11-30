@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Estructura del Código}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Clase \texttt {WeatherStackAPI}}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Interfaz \texttt {Observador}}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Clase \texttt {PantallaMeteorologica}}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Clase \texttt {SeleccionCiudad}}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Clase \texttt {SujetoWeatherstack}}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Método \texttt {main}}{5}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Pasos del Flujo del Programa}{5}{section.3}%
+\contentsline {section}{\numberline {4}Interfaz Gráfica para el Usuario}{6}{section.4}%
+\contentsline {section}{\numberline {5}Diagrama UML}{7}{section.5}%
+\contentsline {section}{\numberline {6}Estimación de Plazo}{8}{section.6}%
+\contentsline {section}{\numberline {7}Conclusiones}{8}{section.7}%
+\contentsline {section}{\numberline {8}Bibliografía}{8}{section.8}%

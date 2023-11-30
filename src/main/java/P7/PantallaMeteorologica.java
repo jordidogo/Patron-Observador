@@ -114,9 +114,6 @@ public class PantallaMeteorologica implements Observador {
         return spaceIndex != -1 ? horaCompleta.substring(spaceIndex + 1) : "Formato inválido";
     }
 
-
-
-
     private void cargarIcono(String iconoURL) {
         try {
             URL url = new URL(iconoURL);
