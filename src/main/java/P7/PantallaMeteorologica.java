@@ -4,11 +4,8 @@ import org.json.JSONObject;
 import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
-import java.awt.image.BufferedImage;
-import javax.imageio.ImageIO;
-import java.io.IOException;
 
-public class PantallaMetereologica implements Observador {
+public class PantallaMeteorologica implements Observador {
     private JFrame frame;
     private JLabel labelCiudad;
     private JLabel labelHora;
