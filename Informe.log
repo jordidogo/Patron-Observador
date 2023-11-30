@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10.12) (format=lualatex 2023.11.16)  30 NOV 2023 21:51
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10.12) (format=lualatex 2023.11.16)  30 NOV 2023 23:08
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/JORGE/Documents/ULL/QUINTO/DAP/Practica7/Informe.tex
@@ -507,22 +507,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.3'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4'
 <./PantallaMeteo.png><./seleccionCiudad.png>]
-
-LaTeX Warning: File `weatherstacksujeto.png.png' not found on input line 89.
-
-
-c:/Users/JORGE/Documents/ULL/QUINTO/DAP/Practica7/Informe.tex:89: Package luate
-x.def Error: File `weatherstacksujeto.png.png' not found: using draft setting.
-
-See the luatex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 ...h=0.4\textwidth]{weatherstacksujeto.png.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<weatherstacksujeto.png, id=133, 299.61937pt x 79.04532pt>
+File: weatherstacksujeto.png Graphic file (type png)
+<use weatherstacksujeto.png>
+Package luatex.def Info: weatherstacksujeto.png  used on input line 89.
+(luatex.def)             Requested size: 137.9979pt x 36.4071pt.
 
 Overfull \hbox (40.52998pt too wide) in paragraph at lines 97--98
 []\TU/lmr/m/n/10 Con-figura la in-ter-faz de usuario ini-cial-izando in-stan-cia
@@ -531,59 +520,54 @@ s de \TU/lmtt/m/n/10 PantallaMeteorologica
 
 [5
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.5'
-]
-<Pantalla.png, id=142, 455.7025pt x 324.21124pt>
-File: Pantalla.png Graphic file (type png)
-<use Pantalla.png>
-Package luatex.def Info: Pantalla.png  used on input line 119.
-(luatex.def)             Requested size: 241.49895pt x 171.8163pt.
-<Seleccion_ciudades.png, id=143, 285.065pt x 362.35374pt>
+<./weatherstacksujeto.png>]
+<Seleccion_ciudades.png, id=149, 285.065pt x 362.35374pt>
 File: Seleccion_ciudades.png Graphic file (type png)
 <use Seleccion_ciudades.png>
-Package luatex.def Info: Seleccion_ciudades.png  used on input line 126.
+Package luatex.def Info: Seleccion_ciudades.png  used on input line 119.
 (luatex.def)             Requested size: 172.5pt x 219.26616pt.
- [6
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.6'
-<./Pantalla.png>]
-<Diagrama_clases.png, id=154, 974.64125pt x 621.32124pt>
+<Pantalla.png, id=150, 455.7025pt x 324.21124pt>
+File: Pantalla.png Graphic file (type png)
+<use Pantalla.png>
+Package luatex.def Info: Pantalla.png  used on input line 126.
+(luatex.def)             Requested size: 241.49895pt x 171.8163pt.
+<Diagrama_clases.png, id=151, 974.64125pt x 621.32124pt>
 File: Diagrama_clases.png Graphic file (type png)
 <use Diagrama_clases.png>
 Package luatex.def Info: Diagrama_clases.png  used on input line 136.
-(luatex.def)             Requested size: 241.49895pt x 153.94576pt.
+(luatex.def)             Requested size: 345.0pt x 219.93065pt.
+ [6
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.6'
 
-Overfull \hbox (16.52007pt too wide) in paragraph at lines 146--156
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.7'
+<./Seleccion_ciudades.png><./Pantalla.png>]
+Overfull \hbox (16.52007pt too wide) in paragraph at lines 145--155
  [][] 
  []
 
 [7
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.7'
-
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.8'
-<./Seleccion_ciudades.png><./Diagrama_clases.png>] [8
+
 warning  (pdf backend): ignoring duplicate destination with the name 'table.1'
-] (./Informe.aux)
+<./Diagrama_clases.png>] [8] (./Informe.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Informe.out' has not changed.
 (rerunfilecheck)             Checksum: 0526D6698E1FA5E30E52B1E0EAC733AD;2121.
 )
 
 Here is how much of LuaTeX's memory you used:
- 12298 strings out of 476603
+ 12275 strings out of 476603
  125027,1977958 words of node,token memory allocated
  516 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 68 glue_spec,
  5 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:1,2:548,3:277,4:167,5:294,6:74,7:2918,8:38,9:467,10:5,11:221
- 33958 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:548,3:280,4:167,5:300,6:74,7:3737,8:38,9:470,10:5,11:271
+ 33935 multiletter control sequences out of 65536+600000
  46 fonts using 3463423 bytes
- 73i,8n,77p,445b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,8n,77p,445b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 olt10-bold.otf><//?/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype/
 public/lm/lmmono10-regular.otf><//?/c:/users/jorge/appdata/local/programs/miktex
@@ -592,9 +576,9 @@ l/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/jorg
 e/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><
 //?/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroma
 n12-bold.otf>
-Output written on Informe.pdf (8 pages, 159621 bytes).
+Output written on Informe.pdf (8 pages, 329584 bytes).
 
-PDF statistics: 217 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 221 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 

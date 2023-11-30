@@ -9,6 +9,6 @@
 \contentsline {section}{\numberline {3}Pasos del Flujo del Programa}{5}{section.3}%
 \contentsline {section}{\numberline {4}Interfaz Gráfica para el Usuario}{6}{section.4}%
 \contentsline {section}{\numberline {5}Diagrama UML}{7}{section.5}%
-\contentsline {section}{\numberline {6}Estimación de Plazo}{8}{section.6}%
-\contentsline {section}{\numberline {7}Conclusiones}{8}{section.7}%
+\contentsline {section}{\numberline {6}Estimación de Plazo}{7}{section.6}%
+\contentsline {section}{\numberline {7}Conclusiones}{7}{section.7}%
 \contentsline {section}{\numberline {8}Bibliografía}{8}{section.8}%

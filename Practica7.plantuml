@@ -15,6 +15,12 @@ title __PRACTICA7's Class Diagram__\n
   
 
   namespace P7 {
+    interface P7.Publisher {
+    }
+  }
+  
+
+  namespace P7 {
     class P7.SeleccionCiudad {
     }
   }
@@ -41,6 +47,7 @@ title __PRACTICA7's Class Diagram__\n
   P7.PantallaMeteorologica .up.|> P7.Observador
   P7.SeleccionCiudad o-- P7.SujetoWeatherstack : sujeto
   P7.SeleccionCiudad o-- P7.WeatherStackAPI : weatherStackAPI
+  P7.SujetoWeatherstack .up.|> P7.Publisher
 
 
 right footer
