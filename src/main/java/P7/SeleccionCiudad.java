@@ -10,6 +10,7 @@ import java.util.TimerTask;
 public class SeleccionCiudad {
     private JFrame frame;
     private Map<String, JCheckBox> checkBoxes = new HashMap<>();
+    private SujetoWeatherstack sujeto;
     private WeatherStackAPI weatherStackAPI;
 
     public SeleccionCiudad() {
@@ -38,5 +39,24 @@ public class SeleccionCiudad {
         frame.add(okButton);
 
         frame.setVisible(true);
+    }
+    private void procesarSeleccion() {
+        sujeto = new SujetoWeatherstack();
+        weatherStackAPI = new WeatherStackAPI();
+
+        for (Map.Entry<String, JCheckBox> entry : checkBoxes.entrySet()) {
+            if (entry.getValue().isSelected()) {
+                String ciudad = entry.getKey();
+                PantallaMeteorologica observador = new PantallaMeteorologica(ciudad);
+                sujeto.agregarObservador(ciudad, observador);
+
+                // Obtener condiciones meteorológicas iniciales
+                String condicionesMeteorologicas = weatherStackAPI.getWeatherConditionsFrom(ciudad);
+                sujeto.notificarObservadores(ciudad, condicionesMeteorologicas);
+            }
+        }
+
+        iniciarActualizacionesPeriodicas();
+        frame.dispose();
     }
 }
